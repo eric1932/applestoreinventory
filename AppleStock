@@ -2,8 +2,6 @@ import urllib
 import json
 import requests
 
-#AirPods MMEF2AM/A
-
 def get_status(name, partnum, zipcode):
 	print("==========================================")
 	print ("Checking "  + name + " " + zipcode)
